@@ -41,7 +41,7 @@ function preencherDadosNaTela(dados, cidade) {
 
   document.getElementById(
     "velocidade-do-vento"
-  ).textContent = `${velocidadeDoVento}km/h`;
+  ).textContent = `${velocidadeDoVento} km/h`;
 
   document.getElementById("icone-condicao").setAttribute("src", iconeCondicao);
 }
